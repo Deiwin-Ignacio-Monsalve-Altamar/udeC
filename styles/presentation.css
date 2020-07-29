@@ -1,0 +1,28 @@
+.name-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    text-align: center;
+    width: 60%;
+    background-color: #004f9e;
+    font-size: 20px;
+    color: #fff;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 10px;
+}
+
+.title h2 {
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.name-parrafo {
+    margin: auto 20% 5% 20%;
+    text-align: justify;
+    color: black;
+    text-shadow: white 0.1em 0.1em 0.2em
+}

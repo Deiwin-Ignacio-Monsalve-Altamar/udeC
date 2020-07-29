@@ -1,0 +1,37 @@
+.contact {
+    padding-left: 4%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    background-color: gray;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.contact h4 {
+    font-size: 15px;
+}
+
+.contact li {
+    list-style: none;
+}
+
+.phone,
+.location,
+.email {
+    display: flex;
+}
+
+.contact a {
+    text-decoration: none;
+}
+
+.contact img {
+    width: 25px;
+    height: 25px;
+    padding-right: 15px;
+    padding-top: 0.5em;
+}
+
+.contact .footer {
+    text-align: center;
+}

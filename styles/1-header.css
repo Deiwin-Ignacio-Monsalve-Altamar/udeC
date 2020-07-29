@@ -1,0 +1,26 @@
+header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: black;
+}
+
+.enlances {
+    padding-right: 3em;
+}
+
+.enlances li {
+    display: inline;
+    list-style: none;
+    margin: auto 1em auto 1em;
+    align-items: center;
+    border-left: 1px solid wheat;
+}
+
+.enlances li a {
+    color: white;
+    padding-left: 2em;
+    text-decoration: none;
+    font: bold 13px arial;
+}
