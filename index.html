@@ -32,9 +32,9 @@
             <!-- <img class="photo-principal" src="images/Selección_130.png" width="100%">
  -->
             <div class="svg-hero" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
-    <path d="M-3.67,23.19 C149.99,150.00 279.06,-31.08 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
-        style="stroke: none; fill: #fff;"></path>
-</svg></div>
+                    <path d="M-3.67,23.19 C149.99,150.00 279.06,-31.08 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                        style="stroke: none; fill: #fff;"></path>
+                </svg></div>
         </div>
     </section>
     <section>
@@ -55,67 +55,81 @@
 
     <section class="formulario">
         <div class="formulario-contact">
-            <form action="">
+            <form action="GET" id="form">
                 <div class="form">
                     <h1>Conectando Talentos UDEC</h1>
                     <div class="grupo">
-                        <input type="text" name="" id="" required><span class="barra"></span>
+                        <input type="text" name="fullname" id="fullname" required><span class="barra"></span>
                         <label>Nombre y apellido completo</label>
                     </div>
                     <div class="grupo">
-                        <input type="text" name="" id="" required><span class="barra"></span>
+                        <input type="text" name="document" id="document" required><span class="barra"></span>
                         <label>Documento de identidad</label>
                     </div>
                     <div class="grupo">
-                        <input type="text" name="" id="" required><span class="barra"></span>
+                        <input type="text" name="email" id="email" required><span class="barra"></span>
                         <label>Correo electronico</label>
                     </div>
                     <div class="grupo">
-                        <input type="text" name="" id="" required><span class="barra"></span>
+                        <input type="text" name="phoneNumer" id="phoneNumber" required><span class="barra"></span>
                         <label>Numero celular</label>
                     </div>
-                    <div class="grupo">
+                    <!--                     <div class="grupo">
                         <input type="text" name="" id="" required><span class="barra"></span>
                         <label>Programa academico</label>
-                    </div>
-                    <!--                     <div class="other-grupo">
-                        <label>Programa Academico</label>
-                        <select name="Pograma" size=5>
+                    </div> -->
+
+
+                    <div class="container__list">
+                        <p>Programa Académico</p>
+                        <select name="list" class="list">
                             <option selected value="0"> Elige una opción </option> 
                                 <option value="1">Administración Financiera</option> 
                                 <option value="2">Contaduria Pública</option> 
                                 <option value="3">Derecho</option>
                                 <option value="4">Ingeniería Comercial</option>
                                 <option value="5">Especialización en Estándares Internacionales NIIF - NIC</option> 
-                            </optgroup> 
-                    </div> -->
-                    <div class="grupo">
-                        <input type="text" name="" id="" required><span class="barra"></span>
-                        <label>¿Tiene titulo de postgrado diferente al que curso en UDEC?</label>
+                            </select>
                     </div>
+
+
+                    <div class="checkbox-contenedor">
+                        <input type="checkbox" id="myCheckBox" name="UDEC">
+                        <div>¿Tienes titulo de postgrado diferente al que curso en UDEC?</div>
+                    </div>
+                    <div class="grupo cursoUDEC">
+                        <input type="text" name="title" id="title"><span class="barra"></span>
+                        <label>Postrgrado realizado</label>
+                    </div>
+
+
                     <div class="grupo">
-                        <input type="text" name="" id="" required><span class="barra"></span>
+                        <input type="text" name="address" id="address" required><span class="barra"></span>
                         <label>Dirrección</label>
                     </div>
                     <div class="grupo">
-                        <input type="text" name="" id="" required><span class="barra"></span>
+                        <input type="text" name="location" id="location" required><span class="barra"></span>
                         <label>Ciudad de residencia</label>
                     </div>
                     <!-- 
                             <button type="texto">¿?</button> -->
                     <div class="grupo">
-                        <textarea name="" id="" rows="10" required></textarea><span class="barra"></span>
-                        <label>Describa el perfil que quieres que otros vean, con el fin de dar a conocer tus servicios, marca o productos
+                        <textarea name="profile" id="textAreElement" rows="10" required></textarea><span class="barra"></span>
+                        <label>Describa el perfil que quieres que otros vean, con el fin de dar a conocer tus servicios,
+                            marca o productos
 
-                                </label>
+                        </label>
 
                     </div>
+
+                    <div class="errorMessagge" id="errorMessage">Excediste limite máximo de caracteres (500)</div>
                     <button type="submit">Enviar</button>
                 </div>
             </form>
         </div>
     </section>
     </div>
+
     <div class="contact">
         <section id="contactanos" class="contactanos">
             <h4>Contáctanos</h4>
@@ -155,6 +169,9 @@
             </div>
         </section>
     </div>
+
+    <script type="text/javascript" src="script.js">
+    </script>
 </body>
 
 </html>
