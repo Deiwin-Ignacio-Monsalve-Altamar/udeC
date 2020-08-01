@@ -40,6 +40,51 @@ form p {
     margin-top: -2.5%;
 }
 
+.container__list p {
+    text-align: left;
+    margin: auto auto -4% 5%;
+}
+
+.cursoUDEC {
+    display: none;
+}
+
+.checkbox-contenedor {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 30px;
+}
+
+#myCheckBox {
+    width: 30px;
+}
+
+.list {
+    position: relative;
+    margin: 45px;
+    border: black 1px solid;
+    border-radius: 4px;
+    border-bottom: none;
+    font-size: 15px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 90.7%;
+    color: rgb(94, 93, 93);
+    background-color: white;
+}
+
+.errorMessagge {
+    background: linear-gradient(to right, #585c3f, #eff874);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    padding: 1rem;
+    width: 50%;
+    display: none;
+    border-radius: 4px;
+    font-size: 15px;
+    margin: 45px;
+}
+
 input,
 textarea {
     background: none;
