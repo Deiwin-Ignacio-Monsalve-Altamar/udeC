@@ -24,7 +24,7 @@ let showPlaceHolder = function() {
         textarea.placeholder = "";
     });
     textarea.addEventListener('click', function(event) {
-        textarea.placeholder = "Example: Leidy Duque Hoyos, egresada UDEC en Contaduria, es especialista en NIIF y ofrece servicios para organizaciones, instituciones o entidades públicas, como manejar e interpretar la contabilidad de la organización o persona, con la finalidad de producir informes para la gerencia y para terceros. Contacto: Facebook: @LeidyUDC - leidy1987@hotmail.com - WhatsApp 016793762.";
+        textarea.placeholder = "Si requieres asesoría tributaria puedes contactar a Leidy Duque Hoyos, egresada de Contaduría Pública y de la Especialización en NIIF-NIC de U DE COLOMBIA. Cuenta con 2 años de experiencia prestando sus servicios a empresas nacionales e internacionales. Contacto: WhatsApp +57 016793762.";
     });
 }
 
