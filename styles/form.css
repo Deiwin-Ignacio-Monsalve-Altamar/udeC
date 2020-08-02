@@ -73,6 +73,21 @@ form p {
     background-color: white;
 }
 
+.other {
+    position: relative;
+    margin: 45px
+}
+
+.other-list {
+    position: relative;
+    margin: 45px
+}
+
+.list {
+    width: 100%;
+    margin-left: auto;
+}
+
 .errorMessagge {
     background: linear-gradient(to right, #585c3f, #eff874);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
