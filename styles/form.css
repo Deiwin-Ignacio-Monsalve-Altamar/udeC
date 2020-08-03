@@ -73,14 +73,15 @@ form p {
     background-color: white;
 }
 
-.other {
-    position: relative;
-    margin: 45px
-}
-
 .other-list {
     position: relative;
-    margin: 45px
+    margin: -30px 45px 45px 45px;
+}
+
+.other {
+    position: relative;
+    margin: 45px;
+    margin-bottom: 10px;
 }
 
 .list {
@@ -89,7 +90,7 @@ form p {
 }
 
 .errorMessagge {
-    background: linear-gradient(to right, #585c3f, #eff874);
+    background: #004f9e;
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: white;
     padding: 1rem;
@@ -162,11 +163,11 @@ textarea:focus~.barra::before {
 }
 
 button {
-    background: #FC5C7D;
+    background: #004f9e;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #585c3f, #eff874);
+    /* background: linear-gradient(to right, #585c3f, #eff874); */
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     display: block;
     width: 20%;
