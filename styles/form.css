@@ -73,14 +73,20 @@ form p {
     background-color: white;
 }
 
-.other {
+.other-title {
     position: relative;
-    margin: 45px
+    margin: 70px 45px 10px 45px;
 }
 
 .other-list {
     position: relative;
-    margin: 45px
+    margin: 45px;
+}
+
+.other {
+    position: relative;
+    margin: 45px;
+    margin-bottom: 10px;
 }
 
 .list {
